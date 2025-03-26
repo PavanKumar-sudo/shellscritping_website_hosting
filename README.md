@@ -1,8 +1,11 @@
 # Hosting Static Website in S3 bucket
 
-##Prequesite
+## Prequesite
 AWS account
-AWS cli Install and configure and connect to aws cli you can check by using command aws --version and aws s3 ls this commands will cli install and how many s3 bucket are there
+AWS cli Install and connect to aws cli Refer: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+After install use command aws --version it shows aws cli is install or not
+Next run this following commands aws configure it will ask acesskey and secret key and region and output please provide acess and secret key  will find on the Security credentials
+Run the aws s3 ls commands it will shown you how many bucket are there in your aws account
 
 ## Running the code
 1. Clone the git in your aws cli
